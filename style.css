@@ -1,0 +1,72 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: black;
+    color:white;
+}
+
+p{
+    color:yellow;
+    position: absolute;
+}
+
+#star:hover{
+    cursor: pointer;
+}
+
+#star{
+    font-size: 6vh;
+}
+
+#envelope{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 1s;
+}
+#envelope:hover{
+    cursor: pointer;
+}
+#envelope-close{
+    width: 50vh;
+}
+
+
+#wishes{
+    width: 50vh;
+    height: 50vh;
+    background-color: white;
+    border-radius: 5%;
+    overflow: scroll;
+    display: none;
+}
+
+#chuc{
+    color:black;
+    font-size: 2vh;
+    padding: 5vh 5vh;
+    text-indent: 3vh;
+    line-height: 3vh;
+}
+
+#firework{
+    font-size:2vh;
+    padding: 2vh 1vh;
+    border: none;
+    border-radius: 2vh;
+    background-color: pink;
+    box-shadow: 0.5vh 0.5vh black;
+    transition: all 0.15s;
+}
+#firework:hover{
+    cursor: pointer;
+}
+#firework:active{
+    margin-left: 0.5vh;
+    margin-top: 0.5vh;
+    box-shadow: none;
+}
